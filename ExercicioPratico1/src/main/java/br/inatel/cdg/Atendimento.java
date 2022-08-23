@@ -12,5 +12,15 @@ public class Atendimento {
         this.periodo = periodo;
     }
 
+    public String getNomeProfessor() {
+        return nomeProfessor;
+    }
 
+    public String getHorarioAtendimento() {
+        return horarioAtendimento;
+    }
+
+    public String getPeriodo() {
+        return periodo;
+    }
 }
